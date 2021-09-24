@@ -1,0 +1,2 @@
+<span *ngIf="!coinPriceUSDNumber"><span class="text-gray-100 text-dark-200">FETCHING PRICE...</span></span>
+<span *ngIf="coinPriceUSDNumber"><span class="text-gray-100 text-dark-200"><strong>~{{coinPriceUSDNumber | currency}}</strong> Coin Price</span></span>
